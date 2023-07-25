@@ -30,7 +30,7 @@ DEBUG = True
 # DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 
-ALLOWED_HOSTS = ['web-production-f3ac.up.railway.app', '127.0.0.1','http://0.0.0.0:6234/']
+ALLOWED_HOSTS = ['web-production-f3ac.up.railway.app', '127.0.0.1','http://0.0.0.0']
 
 
 # Application definition
