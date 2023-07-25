@@ -1,0 +1,45 @@
+body {
+  background-color: azure;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 100px;
+  align-items: center;
+}
+form input[type="text"] {
+  margin-bottom: 20px;
+  width: 500px;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+form input[type="submit"] {
+  width: 200px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: large;
+}
+.message {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: beige;
+}
+p.user {
+  font-weight: bold;
+  font-size: large;
+  margin: 0;
+  margin-bottom: 5px;
+}
+p.date {
+  font-weight: lighter;
+  font-size: small;
+  margin: 0;
+  margin-bottom: 10px;
+}
+p.text {
+  font-weight: normal;
+  font-size: medium;
+  margin: 0;
+}
