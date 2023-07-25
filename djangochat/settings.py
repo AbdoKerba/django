@@ -134,3 +134,5 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.TokenAuthentication'
     ]
 }
+
+CSRF_TRUSTED_ORIGINS = ['https://web-production-3640.up.railway.app']
