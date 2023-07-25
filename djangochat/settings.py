@@ -28,7 +28,7 @@ DEBUG = False
 # DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['web-production-f3ac.up.railway.app/']
 
 
 # Application definition
