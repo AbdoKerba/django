@@ -85,10 +85,11 @@ WSGI_APPLICATION = 'djangochat.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'myproject1',
+        'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': 'postgres',
-        'HOST': 'localhost'
+        'PASSWORD': 'ZmgQqlEIaNsdWnr3ElUm',
+        'HOST': 'containers-us-west-149.railway.app',
+        'PORT': '5895'
     }
 }
 
